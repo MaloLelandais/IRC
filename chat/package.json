@@ -1,0 +1,24 @@
+{
+    "name": "irc",
+    "version": "1.0.0",
+    "description": "UML= \"https://drive.google.com/file/d/1zrxBuQlMbcoDfA9CZV45ANUuXerjx9_m/view?usp=sharing\"",
+    "main": "index.ts",
+    "scripts": {
+        "start": "ts-node ./index.ts "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@molteni/export-csv": "^0.0.8",
+        "mongodb": "^4.5.0",
+        "papaparse": "^5.3.2",
+        "socket.io": "^4.4.1",
+        "socket.io-client": "^4.4.1"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.23",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.3"
+    }
+}
